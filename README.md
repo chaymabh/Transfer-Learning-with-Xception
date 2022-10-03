@@ -1,5 +1,17 @@
-# Transfer-Learning-with-Xception
-Apply an neural network approach in order to perform a binary image classification on the kaggle dataset "Asian vs African Elephants". The chosen approach consists in the use of a pre-trained model through Transfer Learning: the neural network used in this work is Xception from the tensorflow library.
+# Xception_image_classification
 
-## Dataset link : https://www.kaggle.com/datasets/vivmankar/asian-vs-african-elephant-image-classification 
-## Model link : https://keras.io/api/applications/xception/
+TensorFlow implementation of the Xception Model, based on the paper: Xception: Deep Learning with Depthwise Separable Convolutions.
+
+As an example, the model will be trained on the Asian vs African Elephants dataset from Kaggle.
+
+
+## Customization :
+You can simply change the dataset files and the appropriate names to use the network for your own purposes. 
+
+## References : 
+Xception: Deep Learning with Depthwise Separable Convolutions
+Keras implementation of the model
+
+## Dataset link : 
+https://www.kaggle.com/datasets/vivmankar/asian-vs-african-elephant-image-classification 
+
